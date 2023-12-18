@@ -1,0 +1,143 @@
+:root {
+    --color_primario: #9d4edd;
+    --fondo__color: #1f1f1f;
+    --secciones: #2f2f2f;
+    --electro-blue: #1e1736;
+    --bitcoin-orange: #df861a;
+}
+
+* {
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+} 
+
+html {
+    background-color: #3d3a3a;
+}
+body {
+    background-color: var(--fondo__color);
+    max-width: 1010px;
+}
+header {
+    min-width: 360px;
+    
+}
+
+header .hamburguesa {
+    background-color: var(--electro-blue) !important;
+
+}
+a {
+    color: var(--electro-blue);
+}
+
+header .navbar {
+    background-color: var(--electro-blue) !important;
+    min-width:360px;
+    max-width: 1010px;
+    margin: 0 auto;
+} 
+p {
+    color: white;
+    padding: 10px !important;
+}
+button {
+    background-color: #06d656 !important;
+}
+button:hover {
+    background-color: #22aa56 !important;
+}
+
+/* * {
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 0 !important;
+} */
+
+
+#titulo {
+    width: 100%;
+    min-width: 360px;
+    height: 400px;
+    background: linear-gradient(#1e1736, var(--fondo__color)) !important;
+    text-align: center;
+    /* margin-left: 0 !important; */
+}
+
+.titulo_guia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: var(--color_primario) !important;
+}
+.btn-conoce-mas {
+    width: 150px !important;
+    height: 45px !important;
+    border-radius: 80px !important;
+}
+
+
+#contactenos {
+    width:100%;
+    
+    min-width: 360px;
+    height: auto;
+    background-color: var(--fondo__color) !important;
+
+}
+
+.row-contactenos {
+    text-align: center;
+}
+
+#aprenderas {
+    width:100%;
+    min-width: 360px;
+    height: 400px;
+    background: linear-gradient(var(--fondo__color), var(--electro-blue), var(--fondo__color)) !important;
+    color: white;
+}
+
+.lista-aprenderas {
+    list-style: none;
+}
+
+#quien_soy {
+    width:100%;
+    min-width: 360px;
+    background-color: var(--fondo__color);
+    text-align: center;
+}
+
+footer {
+    width:100%;
+    min-width: 360px;
+    background: linear-gradient(var(--fondo__color), var(--electro-blue)) !important;
+    color: white;
+}
+
+.card-custom {
+    height: 300px !important;
+}
+
+.btn-whatsapp {
+display: block !important;
+position: fixed;
+z-index: 9999999;
+bottom: 20px;
+right: 20px;
+cursor: pointer;
+border-radius:100px !important;
+}
+
+.btn-whatsapp:hover{
+    border-radius:100px !important;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1); 
+    -moz-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
+    box-shadow: 0px 0px 15px 0px    rgb(58, 226, 12);
+    transition-duration: 1s;
+    } 
